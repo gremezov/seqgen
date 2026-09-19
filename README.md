@@ -1,5 +1,7 @@
 # seqgen
-ATmega328P-based Sequence Generator (generates user-inputted sequences of digital pulses)  
+ATmega328P-based Sequence Generator (generates user-inputted sequences of digital pulses)
+
+
 This repository contains both the firmware (Arduino code) as well as the KiCad files for the schematic as well as the PCB.
 
 ## schematic
