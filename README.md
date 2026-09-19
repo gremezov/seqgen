@@ -4,7 +4,7 @@ ATmega328P-based Sequence Generator (generates user-inputted sequences of digita
 
 This repository contains both the firmware (Arduino code) as well as the KiCad files for the schematic as well as the PCB.
 
-## schematic
+## Schematic
 ![schematic](images/schematic.png)
 
 ## PCB
