@@ -3,7 +3,7 @@ ATmega328P-based Sequence Generator. This device works by generating user-inputt
 for usage in the Telecom Laboratory at Rangsit University.
 
 
-This repository contains both the firmware (Arduino code) as well as the KiCad files for the schematic as well as the PCB.
+This repository contains both the firmware (Arduino code) as well as the KiCad schematic and PCB files.
 
 ## Schematic
 ![schematic](images/schematic.png)
@@ -19,3 +19,6 @@ This repository contains both the firmware (Arduino code) as well as the KiCad f
 
 
 ![PCB bottom view](images/pcb_bottom.png)
+
+## Assembled Device Outputting a Sequence
+![Assembled device outputting a sequence](images/assembled_device_working.jpg)
