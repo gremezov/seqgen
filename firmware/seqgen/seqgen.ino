@@ -11,7 +11,7 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-char firmware_version[] = "seqgen v20260919_0815";
+char firmware_version[] = "seqgen v20260925_0858";
 
 int OUTPUT_PIN = 8;     // PB0
 int INPUT_0_PIN = 3;    // PD3
@@ -24,7 +24,7 @@ int OUT_IND_LED = 7;    // PD7
 unsigned char sequence[SEQ_LEN_MAX] = {};
 int seq_cnt = 0;
 unsigned long int pulse_width_us;
-unsigned long int pw_adder = 1;
+unsigned long int pw_adder = 10;    // must have non-zero value for button reading while loop to execute
 
 unsigned char display_buffer[DISP_BUF_LEN] = {};
 
